@@ -1,0 +1,50 @@
+/* src/components/codeeditor/codeEditor.css */
+
+
+.code-editor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #202124;
+  }
+  
+  /* Styling for the panel container (HTML, CSS, JS) */
+  .panels {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    padding: 10px;
+    background-color: #EEFFFF;
+  }
+  
+  /* Panel styles (can customize each individually if needed) */
+  .panel {
+    flex: 1;
+    margin: 0 5px;
+    border: 1px solid #333;
+    color: white;
+    font-size: 14px;
+  }
+  
+  /* Styling for the output section */
+  .output {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .output h3 {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+  }
+  
+  iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  

@@ -1,0 +1,31 @@
+/* src/components/panel/panel.css */
+
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  background-color: #2d2d2d;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.panel-header {
+  background-color: #202124;
+  color: white;
+  padding: 5px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #333;
+}
+
+.panel-editor {
+  flex: 1;
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+  resize: none;
+  height: 100%;
+}
