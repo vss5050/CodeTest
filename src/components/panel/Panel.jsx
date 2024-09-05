@@ -9,7 +9,8 @@ const Panel = ({ label, value, onChange, language }) => {
       <div className="panel-header">
         <span>{label}</span>
       </div>
-      <textarea
+      <textarea 
+        spellCheck="false"
         className="panel-editor"
         value={value}
         onChange={(e) => onChange(e.target.value)}
